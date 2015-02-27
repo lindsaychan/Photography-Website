@@ -1,0 +1,46 @@
+#photos{
+    width:1220px;
+    height:300px;
+    background-color:#000;
+    margin-top:135px;
+    overflow:hidden;  
+    margin: 100px auto;
+}
+
+#temple img {
+    width:300px;
+    height:280px;
+    padding-left:10px;
+    padding-top:10px;
+    
+}
+
+
+#walkway img{
+    width:300px;
+    height:280px;
+    padding-top:10px;
+}
+
+
+
+#tags img{
+   width:300px;
+   height:280px; 
+   padding-top:10px;
+}
+
+
+
+#island img{
+    width:300px;
+    height:280px;
+    padding-top:10px;
+}
+
+#temple, #walkway, #tags, #island{
+    float:left;
+    position:relative;
+    left:0;
+    top: 0;
+}

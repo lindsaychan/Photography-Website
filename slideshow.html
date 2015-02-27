@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<script language="JavaScript" src="/Users/lindsaychan/Desktop/tigra_fader/tFader.js"></script>
+</head>
+<body>
+
+<script language="JavaScript">
+// Title: Tigra Fader
+// URL: http://www.softcomplex.com/products/tigra_fader/
+// Version: 1.0 (commented source)
+// Date: 08/28/2012
+// Notes: This script is free. Visit official site for further details.
+
+
+	// configuration structure
+	var A_TPL1 = {
+		// randomize the array each time page loads
+		'random' : true,
+		// number of transparency changes during the transition
+		//	increase for smoother transition, reduce for less CPU usage
+		'steps' : 20,
+		// transition duration in seconds
+		'transtime': .4,
+		// slide time in seconds
+		'slidetime': 3,
+		// width of the slide (optional)
+		'width' : 500,
+		// height of the slide (optional)
+		'height': 325,
+		// alt text for the image (optional)
+		//'alt' : 'Sample Tigra Fader Slideshow #1',
+		// css class assigned to the slide <img> (optional)
+		'css' : ''
+	};
+
+	// list of images to display
+	var A_ITEMS1 = [
+		'/Users/lindsaychan/Desktop/temple.jpg',
+		'/Users/lindsaychan/Desktop/walkway.jpg',
+		'/Users/lindsaychan/Desktop/island.jpg'
+	];
+
+	// fader initialization	
+	var mySlideShow1 = new tFader (A_ITEMS1, A_TPL1);
+
+</script>
+</body>
+
+</html>
